@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Querio | Login</title>
+        <script src="angular.min.js"></script>
+        <script src="app-3.js"></script>
+        <link rel="stylesheet" href="bootstrap-4.5.2-dist/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles1.css">
+    </head>
+    <body>
+        <div class="container mt-2 mb-4">
+        <div class="row justify-content-md-center">
+        <div class="col-md-6">
+        <form  action="validate.php"  method = "post" class="myform">
+        <fieldset>
+        <h1 style="color:darkslategray;font-weight:700;font-size:120%;margin-left:180px;">SIGN IN</h1><br>	 
+        <div class="form-group">
+        <div ng-controller='ParentController1'>
+        <div ng-controller='ChildController1'>
+        </div>
+        </div>
+        <div ng-controller='ParentController2 as parent'>
+        <div ng-controller='ChildController2 as child'>
+        <label for="">USERNAME </label> 
+        <input class="form-control" type="email" name="username"  placeholder = "Email" required="true" ng-model="user" >  
+        </div>	 
+        <div class="form-group">
+        <label for="">PASSWORD </label> 
+        <input class="form-control" type="password" name="password" placeholder = "Password" ng-model="password">  
+        </div>
+        <button  class="btn btn-secondary btn-block" type="button" ng-disabled="child.checker()"  class="button btn-lg btn-block"style="font-weight:600;font-size:100%;" onclick="location='home.html'">Login
+        </button>
+        <button  class="btn btn-dark btn-block" type="button" onclick="forgotpw.html"  name="forgotpw" class="button btn-lg btn-block"style="font-weight:600;font-size:100%;">Forgot Password
+        </button>
+        </div>
+        </fieldset>
+        </form>
+        </div></div></div>
+        
+   
+</body>
+</html>

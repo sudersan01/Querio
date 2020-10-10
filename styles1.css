@@ -1,0 +1,33 @@
+fieldset {
+    border: thin solid #ccc; 
+    border-radius: 4px;
+    padding: 20px;
+    padding-left: 40px;
+    background: #fbfbfb;	
+}
+body{
+  background-image: url("question.jpg");
+  background-repeat: no-repeat;
+  background-size: absolute;
+  height: 100%;
+}
+legend {
+   color: #678;
+}
+.form-control {
+    width: 95%;
+}
+label small {
+    color: #678 !important;
+}
+span.req {
+    color:maroon;
+    font-size: 112%;
+}
+.myform
+{
+  box-shadow: 0 4px 8px 0 darkslategray, 0 6px 20px 0 darkslategray;
+  padding: 20px;
+  background-color: white;
+  margin-top:100px;
+}

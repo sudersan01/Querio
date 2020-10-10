@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Querio | Home</title>
+        <script src="angular.min.js"></script>
+        <link rel="stylesheet" href="bootstrap-4.5.2-dist/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            footer {
+    text-align: center;
+    padding: 8px;
+    background-color: black;
+    color: white;
+    font-size:12px;
+  }
+        </style>
+    </head>
+    <body>
+      <nav class="nav">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">Querio</a>
+            </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="signin.html">Login</a></li>
+                    <li><a href="signup.php">Signup</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+        </div>
+    </nav>
+
+    <section class="home">
+    </section>
+    <br>
+<br>
+    <div>
+        <!-- just to make scrolling effect possible -->
+			<h2 class="myH2">About</h2>
+				<p class="myP">
+                    Querio is a question-and-answer website where questions are asked, answered, followed, and edited by Internet users, either factually or in the form of opinions.
+                    Querio is an endeavour by Sudersan Srirama Venkateshwaran of Thiagarajar College of Engineering. This website has been designed partly as an assignment for  
+                    Web technologies course (18IT510) involving Angular JS, HypeText Markup Language, Cascading Style Sheets and Java Script.
+                    <br><br>
+                    Querio can be used to ask questions of scientific, historical or cultural aspects, It serves as a portal to bring together individuals around the world, and enable
+                    transfer of knowledge. We at Querio aspire to build communities with similar interests and ambitions and to cater to their demands.
+                    <br><br>
+                    Querio requires users to register with the complete form of their real names rather than an Internet pseudonym (screen name), Although verification of names is not required, false names can be reported by the community. This was done with the ostensible intent of adding credibility to answers.
+                    Users with a certain amount of activity on the website have the option to write their answers anonymously but not by default.
+                    <br><br>
+                    Users can rank answers based on how relevant or helpful they found the answers to be. This feature is intended to help maintain the quality of content posted online. The more upvotes an answer receives, the higher it is ranked, and it shows up on top of the searches related to the question. 
+                    If an answer is ranked poorly, it is "collapsed" and will not show up in people's feeds.Users can report plagiarism, harassment, spam, and factually incorrect articles, etc. This is intended to keep sub-standard content under check.
+                    Users propose changes to an answer. The proposed changes are made visible to the author of the answer, who can either approve (and publish) or reject them.Users can directly edit a question. These changes are reviewed by Querio Moderation, which can revert them if they are deemed unconstructive.
+            </p>
+            <br><br><br>
+    </div>
+
+<!-- Jquery needed -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+
+<!-- Function used to shrink nav bar removing paddings and adding black background -->
+    <script>
+        $(window).scroll(function() {
+            if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('affix');
+                console.log("OK");
+            } else {
+                $('.nav').removeClass('affix');
+            }
+        });
+    </script>
+    <footer>
+        <p>&copy Sudersan (18IT099)</p>
+        <p>Powered by Quora</p>
+        </footer>
+
+    </body>
+</html>
