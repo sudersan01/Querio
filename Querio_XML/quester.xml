@@ -1,0 +1,72 @@
+<?xml version = "1.0"?>
+<?xml-stylesheet type = "text/xsl" href = "questyle.xsl"?>
+<qans>
+<question id = "1">
+	<title>What are some unsolved questions in science?</title>
+	<author>Anon James
+	</author>
+	<answer>
+		Some unsolved questions in science are:
+		1. A theory of quantum gravity:
+The big one has to go to the unification of the 4 forces of nature, the next and potentially final step towards a "theory of everything". M-Theory is where most physicists put their money here.
+
+2. The foundations of consciousness:
+Is there a physical foundation to consciousness? This is a big open question in neuroscience right now. Whether consciousness is an illusion is a result of this question and could have profound implications for ethics, philosophy and neuroscience.
+
+3. Navier-Stokes existence and smoothness problem:
+This is the foundation of all of aerospace and fluid dynamic in general, knowing that they aren't broken equations could be nice.
+
+4. P vs NP:
+This is probably the one on this list that could have the quickest impact on the lives of the lay-man. If equivalence is proved (which everyone agrees is highly unlikely) then everything you thought was secure on your computer isn't. The whole of computer science would have to adjust quickly and profoundly.
+
+5. Origin of life:
+What is the exact chemical origin of life, can we recreate it in a lab and how likely is it to occur on other planets? This could have significant impacts in philosophy, astronomy and biology, and lets be honest is probably the thing that most people would be most interested to hear the answer to.
+	</answer>
+	<lastedit time = "15 minutes ago" />
+</question>
+<question id = "2">
+	<title>How do you build a gaming pc?</title>
+	<author>Willam Jones
+	</author>
+	<answer>
+		You can build it 2 ways:-
+
+Putting together all new parts(will cost you more)
+
+Hunt for some deals and and go for used parts
+
+Depending upon your budget you can aim for suitable GPU ,most of the parts will depend upon at what resolution you intend to play and at what fps.
+
+Personal opinion :- Go for used parts and even go for older gen ram ddr3 because as of now ddr4 costs very high and difference in gaming is like 5% .Get a beefier Gpu with i5 /ryzen 5 processor and you are good to go . Minimum 8gb ram is required for 1080p ,12/16 is a sweet spot for future proofing.
+	</answer>
+	<lastedit time = "45 minutes ago" />
+</question>
+<question id = "3">
+	<title>How does cyber warfare work?</title>
+	<author>Ronald Reagan
+	</author>
+	<answer>
+		Nation/State-sponsored hackers (hackers either in the military of a nation/state or supported by said state) attack computers and networks that are involved with sensitive resources within a country.
+
+They do this like you would hack any other computer or system: you learn as much as you can about the system, you figure out its flaws, and you exploit those flaws to either gain control of that system or destroy it.
+
+
+The PLAAF 5th generation J20 fighter compared to the USAF F-22 fighter. It is speculated that the J20's design benefited from classified research materials obtained through cyber espionage.
+
+In the former case, you can then read privileged information not meant for you (espionage) that you could exploit to gain advantage over your adversary. You could learn how fast a missile flies and build a plane that can outrun it. You could learn where your target is moving troops and set up an ambush. You could learn about which scientists are important to developing those weapons, or which congressmen were instrumental in getting funding for said systems and 
+personally attack them.
+
+You can also sabotage people if you have control of those systems. What if I snuck a secret program into the source code of that missile that would allow me to remotely detonate it while it was on the ground? What if I could figure how the troops are communicating and gain access to their network so I could confuse them and sneak forces in to destroy them?
+
+Worse, what if I attacked the civilian workers and politicians behind all of the above? I could defraud them by getting to their various system/network accounts and pretending I was them. Or I could use the information I gained to get leverage over them and force them to work for me (i.e.: blackmail them with info you found on their computer, kidnap their families with stuff you learned from their email, etc.).
+
+Destroying these systems has a pretty obvious effect: you stop the computer control over the system and presumably stop it from functioning. A good example of cyberwarfare here is in using DDoS (Distributed Denial of Service Attacks) to shut down access to government websites and social media. This was an effective tactic used by the Russians during the South Ossetian War in 2008 to cause chaos and sew disinformation among the populace before and during Russia's invasion.
+
+Who does it target?
+Cyber warfare is going to target any sensitive industry in your opponent's infrastructure. This means obvious stuff like the military and defense and weapons manufacturers. It also means stuff like civilian factories that make weapons, mines and other resource manufacturers that help those factories operate, and the national power grid that gives all of the above its necessary electricity.
+
+In its scariest incarnation, cyber warfare could target the most important strategic asset a country has: its population. In this way you could launch terrorist attacks meant to destabilize or dishearten that population from fighting. This means doing scary things like hitting major financial sectors and causing economic damage to the country's economy (think about what things would be like if the NASDAQ unexpectedly shut down) and abruptly terminating public communication (think what would happen if the national cell networks all terminated and the internet went down).
+	</answer>
+	<lastedit time = "3 hours ago" />
+</question>
+</qans>

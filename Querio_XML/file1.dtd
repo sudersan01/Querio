@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT user(user_info+)>
+<!ELEMENT user_info(name,email,topic,llt)>
+<!ELEMENT name(#PCDATA)>
+<!ELEMENT email(#PCDATA)>
+<!ELEMENT topic(#PCDATA)>
+<!ELEMENT llt(#PCDATA)>
+<!ATTLIST user_info id ID #REQUIRED>

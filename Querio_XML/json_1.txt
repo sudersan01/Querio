@@ -1,0 +1,11 @@
+{
+    
+    "user":[
+        { "name":"Albert Einstein","email":"albert@gmail.com", "topic":"Theoretical physics, Quantum physics, Astronomy" },
+        { "name":"Neils Bohr","email":"neils@gmail.com", "topic":"Theoretical physics, Quantum physics, Atomic physics, Nuclear physics" },
+        { "name":"Pablo Picasso","email":"picasso@gmail.com", "topic":"classical art, impressions, modern art, cubism" },
+        { "name":"William Hertzl","email":"hertzl@gmail.com", "topic":"Judaism, Zionism, Israel" },
+        { "name":"Arthur Conan Doyle","email":"arthue@gmail.com", "topic":"English, Poetry, Detective stories" },
+        { "name":"Tiger Woods","email":"tigerwoods@gmail.com", "topic":"Golf, Philosphy, Chess" }
+    ]
+}

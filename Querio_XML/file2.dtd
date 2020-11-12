@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT qans(question+)>
+<!ELEMENT question(title,author,answer,lastedit)>
+<!ELEMENT title(#PCDATA)>
+<!ELEMENT author(#PCDATA)>
+<!ELEMENT answer(#PCDATA)>
+<!ELEMENT lastedit(#PCDATA)>
+<!ATTLIST question id ID #REQUIRED>
+<!ATTLIST lastedit time #REQUIRED>
